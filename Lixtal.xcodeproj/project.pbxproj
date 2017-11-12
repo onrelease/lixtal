@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C23AD4118C507BD00186EF1 /* icon_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C23AD3E18C507BD00186EF1 /* icon_58x58.png */; };
+		2C23AD4218C507BD00186EF1 /* icon_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C23AD3F18C507BD00186EF1 /* icon_80x80.png */; };
+		2C23AD4318C507BD00186EF1 /* icon_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C23AD4018C507BD00186EF1 /* icon_120x120.png */; };
+		2C23AD4518C507CC00186EF1 /* logo_id.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C23AD4418C507CC00186EF1 /* logo_id.png */; };
+		2C23AD4718C507D900186EF1 /* logo-id_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C23AD4618C507D900186EF1 /* logo-id_960.png */; };
+		2C23AD4C18C50A7E00186EF1 /* btn_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C23AD4818C50A7E00186EF1 /* btn_bg.png */; };
+		2C23AD4D18C50A7E00186EF1 /* logo_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C23AD4918C50A7E00186EF1 /* logo_main.png */; };
+		2C23AD4E18C50A7E00186EF1 /* logo-id_small_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C23AD4A18C50A7E00186EF1 /* logo-id_small_top.png */; };
+		2C23AD4F18C50A7E00186EF1 /* small-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C23AD4B18C50A7E00186EF1 /* small-star.png */; };
+		3B2AAF001886950E00D6046D /* LixtalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2AAEFF1886950E00D6046D /* LixtalAppDelegate.m */; };
+		3B588B021880A62500F6A912 /* LixtalBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B588B011880A62500F6A912 /* LixtalBrain.m */; };
+		3BB875AB188092B20022E0CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB875AA188092B20022E0CF /* Foundation.framework */; };
+		3BB875AD188092B20022E0CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB875AC188092B20022E0CF /* CoreGraphics.framework */; };
+		3BB875AF188092B20022E0CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB875AE188092B20022E0CF /* UIKit.framework */; };
+		3BB875B5188092B20022E0CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BB875B3188092B20022E0CF /* InfoPlist.strings */; };
+		3BB875B7188092B20022E0CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB875B6188092B20022E0CF /* main.m */; };
+		3BB875BE188092B20022E0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB875BC188092B20022E0CF /* Main.storyboard */; };
+		3BB875C1188092B20022E0CF /* LixtalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB875C0188092B20022E0CF /* LixtalViewController.m */; };
+		3BB875C3188092B20022E0CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB875C2188092B20022E0CF /* Images.xcassets */; };
+		3BB875CA188092B20022E0CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB875C9188092B20022E0CF /* XCTest.framework */; };
+		3BB875CB188092B20022E0CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB875AA188092B20022E0CF /* Foundation.framework */; };
+		3BB875CC188092B20022E0CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB875AE188092B20022E0CF /* UIKit.framework */; };
+		3BB875D4188092B20022E0CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BB875D2188092B20022E0CF /* InfoPlist.strings */; };
+		3BB875D6188092B20022E0CF /* LixtalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB875D5188092B20022E0CF /* LixtalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BB875CD188092B20022E0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB8759F188092B10022E0CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB875A6188092B20022E0CF;
+			remoteInfo = Lixtal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C23AD3E18C507BD00186EF1 /* icon_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_58x58.png; path = Images.xcassets/AppIcon.appiconset/icon_58x58.png; sourceTree = "<group>"; };
+		2C23AD3F18C507BD00186EF1 /* icon_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_80x80.png; path = Images.xcassets/AppIcon.appiconset/icon_80x80.png; sourceTree = "<group>"; };
+		2C23AD4018C507BD00186EF1 /* icon_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_120x120.png; path = Images.xcassets/AppIcon.appiconset/icon_120x120.png; sourceTree = "<group>"; };
+		2C23AD4418C507CC00186EF1 /* logo_id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_id.png; path = Images.xcassets/LaunchImage.launchimage/logo_id.png; sourceTree = "<group>"; };
+		2C23AD4618C507D900186EF1 /* logo-id_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-id_960.png"; path = "Images.xcassets/LaunchImage.launchimage/logo-id_960.png"; sourceTree = "<group>"; };
+		2C23AD4818C50A7E00186EF1 /* btn_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_bg.png; path = Images.xcassets/AppIcon.appiconset/btn_bg.png; sourceTree = "<group>"; };
+		2C23AD4918C50A7E00186EF1 /* logo_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_main.png; path = Images.xcassets/AppIcon.appiconset/logo_main.png; sourceTree = "<group>"; };
+		2C23AD4A18C50A7E00186EF1 /* logo-id_small_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-id_small_top.png"; path = "Images.xcassets/AppIcon.appiconset/logo-id_small_top.png"; sourceTree = "<group>"; };
+		2C23AD4B18C50A7E00186EF1 /* small-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "small-star.png"; path = "Images.xcassets/AppIcon.appiconset/small-star.png"; sourceTree = "<group>"; };
+		3B2AAEFF1886950E00D6046D /* LixtalAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixtalAppDelegate.m; sourceTree = "<group>"; };
+		3B2AAF011886951500D6046D /* LixtalAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixtalAppDelegate.h; sourceTree = "<group>"; };
+		3B588B001880A62500F6A912 /* LixtalBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixtalBrain.h; sourceTree = "<group>"; };
+		3B588B011880A62500F6A912 /* LixtalBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixtalBrain.m; sourceTree = "<group>"; };
+		3BB875A7188092B20022E0CF /* Lixtal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lixtal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB875AA188092B20022E0CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BB875AC188092B20022E0CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BB875AE188092B20022E0CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BB875B2188092B20022E0CF /* Lixtal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lixtal-Info.plist"; sourceTree = "<group>"; };
+		3BB875B4188092B20022E0CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BB875B6188092B20022E0CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BB875B8188092B20022E0CF /* Lixtal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lixtal-Prefix.pch"; sourceTree = "<group>"; };
+		3BB875BD188092B20022E0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BB875BF188092B20022E0CF /* LixtalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LixtalViewController.h; sourceTree = "<group>"; };
+		3BB875C0188092B20022E0CF /* LixtalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LixtalViewController.m; sourceTree = "<group>"; };
+		3BB875C2188092B20022E0CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BB875C8188092B20022E0CF /* LixtalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LixtalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB875C9188092B20022E0CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3BB875D1188092B20022E0CF /* LixtalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LixtalTests-Info.plist"; sourceTree = "<group>"; };
+		3BB875D3188092B20022E0CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BB875D5188092B20022E0CF /* LixtalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LixtalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB875A4188092B20022E0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB875AD188092B20022E0CF /* CoreGraphics.framework in Frameworks */,
+				3BB875AF188092B20022E0CF /* UIKit.framework in Frameworks */,
+				3BB875AB188092B20022E0CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB875C5188092B20022E0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB875CA188092B20022E0CF /* XCTest.framework in Frameworks */,
+				3BB875CC188092B20022E0CF /* UIKit.framework in Frameworks */,
+				3BB875CB188092B20022E0CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB8759E188092B10022E0CF = {
+			isa = PBXGroup;
+			children = (
+				3BB875B0188092B20022E0CF /* Lixtal */,
+				3BB875CF188092B20022E0CF /* LixtalTests */,
+				3BB875A9188092B20022E0CF /* Frameworks */,
+				3BB875A8188092B20022E0CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB875A8188092B20022E0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB875A7188092B20022E0CF /* Lixtal.app */,
+				3BB875C8188092B20022E0CF /* LixtalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB875A9188092B20022E0CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BB875AA188092B20022E0CF /* Foundation.framework */,
+				3BB875AC188092B20022E0CF /* CoreGraphics.framework */,
+				3BB875AE188092B20022E0CF /* UIKit.framework */,
+				3BB875C9188092B20022E0CF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BB875B0188092B20022E0CF /* Lixtal */ = {
+			isa = PBXGroup;
+			children = (
+				3BB875BC188092B20022E0CF /* Main.storyboard */,
+				3BB875BF188092B20022E0CF /* LixtalViewController.h */,
+				3BB875C0188092B20022E0CF /* LixtalViewController.m */,
+				3B2AAF011886951500D6046D /* LixtalAppDelegate.h */,
+				3B2AAEFF1886950E00D6046D /* LixtalAppDelegate.m */,
+				3B588B001880A62500F6A912 /* LixtalBrain.h */,
+				3B588B011880A62500F6A912 /* LixtalBrain.m */,
+				3BB875C2188092B20022E0CF /* Images.xcassets */,
+				3BB875B1188092B20022E0CF /* Supporting Files */,
+			);
+			path = Lixtal;
+			sourceTree = "<group>";
+		};
+		3BB875B1188092B20022E0CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C23AD4818C50A7E00186EF1 /* btn_bg.png */,
+				2C23AD4918C50A7E00186EF1 /* logo_main.png */,
+				2C23AD4A18C50A7E00186EF1 /* logo-id_small_top.png */,
+				2C23AD4B18C50A7E00186EF1 /* small-star.png */,
+				2C23AD4618C507D900186EF1 /* logo-id_960.png */,
+				2C23AD4418C507CC00186EF1 /* logo_id.png */,
+				2C23AD3E18C507BD00186EF1 /* icon_58x58.png */,
+				2C23AD3F18C507BD00186EF1 /* icon_80x80.png */,
+				2C23AD4018C507BD00186EF1 /* icon_120x120.png */,
+				3BB875B2188092B20022E0CF /* Lixtal-Info.plist */,
+				3BB875B3188092B20022E0CF /* InfoPlist.strings */,
+				3BB875B6188092B20022E0CF /* main.m */,
+				3BB875B8188092B20022E0CF /* Lixtal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BB875CF188092B20022E0CF /* LixtalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB875D5188092B20022E0CF /* LixtalTests.m */,
+				3BB875D0188092B20022E0CF /* Supporting Files */,
+			);
+			path = LixtalTests;
+			sourceTree = "<group>";
+		};
+		3BB875D0188092B20022E0CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB875D1188092B20022E0CF /* LixtalTests-Info.plist */,
+				3BB875D2188092B20022E0CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB875A6188092B20022E0CF /* Lixtal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB875D9188092B20022E0CF /* Build configuration list for PBXNativeTarget "Lixtal" */;
+			buildPhases = (
+				3BB875A3188092B20022E0CF /* Sources */,
+				3BB875A4188092B20022E0CF /* Frameworks */,
+				3BB875A5188092B20022E0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lixtal;
+			productName = Lixtal;
+			productReference = 3BB875A7188092B20022E0CF /* Lixtal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BB875C7188092B20022E0CF /* LixtalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB875DC188092B20022E0CF /* Build configuration list for PBXNativeTarget "LixtalTests" */;
+			buildPhases = (
+				3BB875C4188092B20022E0CF /* Sources */,
+				3BB875C5188092B20022E0CF /* Frameworks */,
+				3BB875C6188092B20022E0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB875CE188092B20022E0CF /* PBXTargetDependency */,
+			);
+			name = LixtalTests;
+			productName = LixtalTests;
+			productReference = 3BB875C8188092B20022E0CF /* LixtalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB8759F188092B10022E0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Lixtal;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Michael Jensen";
+				TargetAttributes = {
+					3BB875A6188092B20022E0CF = {
+						DevelopmentTeam = 44EX3DE639;
+					};
+					3BB875C7188092B20022E0CF = {
+						TestTargetID = 3BB875A6188092B20022E0CF;
+					};
+				};
+			};
+			buildConfigurationList = 3BB875A2188092B10022E0CF /* Build configuration list for PBXProject "Lixtal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB8759E188092B10022E0CF;
+			productRefGroup = 3BB875A8188092B20022E0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB875A6188092B20022E0CF /* Lixtal */,
+				3BB875C7188092B20022E0CF /* LixtalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB875A5188092B20022E0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C23AD4F18C50A7E00186EF1 /* small-star.png in Resources */,
+				3BB875C3188092B20022E0CF /* Images.xcassets in Resources */,
+				2C23AD4C18C50A7E00186EF1 /* btn_bg.png in Resources */,
+				2C23AD4718C507D900186EF1 /* logo-id_960.png in Resources */,
+				2C23AD4118C507BD00186EF1 /* icon_58x58.png in Resources */,
+				2C23AD4218C507BD00186EF1 /* icon_80x80.png in Resources */,
+				2C23AD4518C507CC00186EF1 /* logo_id.png in Resources */,
+				2C23AD4318C507BD00186EF1 /* icon_120x120.png in Resources */,
+				2C23AD4E18C50A7E00186EF1 /* logo-id_small_top.png in Resources */,
+				2C23AD4D18C50A7E00186EF1 /* logo_main.png in Resources */,
+				3BB875B5188092B20022E0CF /* InfoPlist.strings in Resources */,
+				3BB875BE188092B20022E0CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB875C6188092B20022E0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB875D4188092B20022E0CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB875A3188092B20022E0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2AAF001886950E00D6046D /* LixtalAppDelegate.m in Sources */,
+				3BB875C1188092B20022E0CF /* LixtalViewController.m in Sources */,
+				3B588B021880A62500F6A912 /* LixtalBrain.m in Sources */,
+				3BB875B7188092B20022E0CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB875C4188092B20022E0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB875D6188092B20022E0CF /* LixtalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BB875CE188092B20022E0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB875A6188092B20022E0CF /* Lixtal */;
+			targetProxy = 3BB875CD188092B20022E0CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BB875B3188092B20022E0CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB875B4188092B20022E0CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BB875BC188092B20022E0CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB875BD188092B20022E0CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BB875D2188092B20022E0CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB875D3188092B20022E0CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB875D7188092B20022E0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BB875D8188092B20022E0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB875DA188092B20022E0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lixtal/Lixtal-Prefix.pch";
+				INFOPLIST_FILE = "Lixtal/Lixtal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Interactive-Developing.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BB875DB188092B20022E0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lixtal/Lixtal-Prefix.pch";
+				INFOPLIST_FILE = "Lixtal/Lixtal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Interactive-Developing.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BB875DD188092B20022E0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lixtal.app/Lixtal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lixtal/Lixtal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LixtalTests/LixtalTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Interactive-Developing.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3BB875DE188092B20022E0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lixtal.app/Lixtal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lixtal/Lixtal-Prefix.pch";
+				INFOPLIST_FILE = "LixtalTests/LixtalTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Interactive-Developing.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB875A2188092B10022E0CF /* Build configuration list for PBXProject "Lixtal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB875D7188092B20022E0CF /* Debug */,
+				3BB875D8188092B20022E0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB875D9188092B20022E0CF /* Build configuration list for PBXNativeTarget "Lixtal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB875DA188092B20022E0CF /* Debug */,
+				3BB875DB188092B20022E0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB875DC188092B20022E0CF /* Build configuration list for PBXNativeTarget "LixtalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB875DD188092B20022E0CF /* Debug */,
+				3BB875DE188092B20022E0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB8759F188092B10022E0CF /* Project object */;
+}
